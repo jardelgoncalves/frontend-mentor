@@ -1,0 +1,79 @@
+:root {
+  --background: hsl(212, 45%, 89%);
+  --background-card: hsl(0, 0%, 100%);
+  --title-color: hsl(218, 44%, 22%);
+  --card-link-color: hsl(217, 28%, 38%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--title-color);
+}
+
+.challanges {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.challanges__item {
+  height: 40px;
+  width: 100%;
+}
+
+.challanges__item + .challanges__item {
+  margin-top: 16px;
+}
+
+.challanges__item__link {
+  background-color: var(--background-card);
+  display: block;
+  height: 100%;
+  line-height: 40px;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--card-link-color);
+
+  transition: 0.2s;
+}
+
+.challanges__item__link:hover {
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 12px;
+  margin-left: 1.5rem;
+}
+
+.tag.green {
+  background-color: #21a136;
+  color: #fff;
+}
