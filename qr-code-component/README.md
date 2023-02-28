@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
-I simulated the component size in figma to better understand the spacing, font size and started to develop.
+I simulated the component size in figma to better understand the spacing, font size and started to develop. I needed to change the color hsl(212, 45%, 89%) (light gray) to hsl(219, 14%, 32%) because the contrast was very low.
 
 ### Built with
 
