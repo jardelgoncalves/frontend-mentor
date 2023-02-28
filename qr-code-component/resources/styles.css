@@ -2,7 +2,7 @@
   --background: hsl(212, 45%, 89%);
   --background-card: hsl(0, 0%, 100%);
   --title-color: hsl(218, 44%, 22%);
-  --description-color: hsl(220, 15%, 55%);
+  --description-color: hsl(219, 14%, 32%);
 }
 
 *,
@@ -22,7 +22,7 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-.container {
+.card-wrapper {
   height: 100vh;
   width: 100vw;
   display: flex;
