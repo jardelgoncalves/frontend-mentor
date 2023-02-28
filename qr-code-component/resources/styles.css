@@ -65,9 +65,3 @@ body {
   color: var(--description-color);
   margin-top: 0.5rem;
 }
-
-.attribution {
-  margin-top: 1rem;
-  padding: 1rem;
-  text-align: center;
-}
